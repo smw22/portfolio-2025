@@ -8,3 +8,17 @@
   --color-component-white: #e2e2e2;
   --color-btn-blue: #4f46e5;
 }
+
+.component-wrapper {
+  background-color: var(--color-component-grey);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  width: fit-content;
+  margin: auto;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+}

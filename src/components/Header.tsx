@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <header>
+    <header className="page-wrapper">
       <nav>
-        <ul className="flex items-center justify-center bg-component-grey py-4 px-12 gap-8 w-fit m-auto rounded-b-lg">
+        <ul className="flex items-center justify-center bg-component-grey py-4 px-12 gap-8 w-fit m-auto rounded-b-xl mb-8">
           <li className="mr-32">
             <a className="font-bold" href="/">
               SMW
