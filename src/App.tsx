@@ -1,9 +1,11 @@
 import Header from "./components/Header";
+import Home from "./routes/home";
 
 function App() {
   return (
     <>
       <Header />
+      <Home />
     </>
   );
 }
