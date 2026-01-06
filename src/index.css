@@ -13,12 +13,12 @@
   background-color: var(--color-component-grey);
   padding: 1.5rem;
   border-radius: 0.75rem;
-  width: fit-content;
+  width: 100%;
   margin: auto;
 }
 
 .page-wrapper {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
