@@ -1,13 +1,11 @@
 export default function Header() {
   return (
-    <header className="page-wrapper ">
-      <nav>
-        <ul className="flex items-center justify-center bg-component-grey py-4 px-12 gap-8 w-full m-auto rounded-b-xl mb-8">
-          <li className="mr-32">
-            <a className="font-bold" href="/">
-              SMW
-            </a>
-          </li>
+    <header className="page-wrapper">
+      <nav className="bg-component-grey flex items-center justify-between py-6 px-12 gap-8 rounded-b-xl mb-8 w-full m-auto">
+        <a className="font-bold" href="/">
+          SMW
+        </a>
+        <ul className="flex items-center gap-8">
           <li>
             <a className="font-semibold" href="/">
               Hjemme
@@ -19,9 +17,12 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <button className="font-semibold bg-btn-blue text-white p-2 rounded-md">
+            <a
+              className="font-semibold bg-btn-blue hover:bg-btn-blue-hover text-white py-2 px-3 rounded-md transition-all duration-300"
+              href="/contact"
+            >
               Kontakt mig
-            </button>
+            </a>
           </li>
         </ul>
       </nav>

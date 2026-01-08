@@ -7,18 +7,31 @@
   --color-component-grey: #c8c8c8;
   --color-component-white: #e2e2e2;
   --color-btn-blue: #4f46e5;
+  --color-btn-blue-hover: #4338ca;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: Poppins, sans-serif;
 }
 
 .component-wrapper {
   background-color: var(--color-component-grey);
-  padding: 1.5rem;
+  padding: 3rem;
   border-radius: 0.75rem;
   width: 100%;
-  margin: auto;
 }
 
 .page-wrapper {
   max-width: 1500px;
   margin: auto;
   padding: 0 4rem;
+}
+
+.cv-button {
+  @apply bg-white font-medium border-2 border-black rounded-full flex gap-4 items-center px-4 py-2 transition-all duration-300;
+}
+
+.cv-button:hover {
+  @apply bg-btn-blue text-white border-white;
 }

@@ -3,11 +3,11 @@ export default function About() {
     <div className="component-wrapper grid gap-8">
       <div>
         <h2 className="font-bold text-2xl mb-4">OM MIG</h2>
-        <div className="flex flex-col gap-q text-md">
+        <div className="flex flex-col gap-2 text-md">
           <p>
-            Mit navn er Sergio Morón Westergaard. Jeg er studerende på
-            Webudvikling på Erhvervsakademi Aarhus og har en baggrund som
-            multimediedesigner.
+            Mit navn er <strong> Sergio Morón Westergaard</strong>. Jeg er
+            studerende på Webudvikling på Erhvervsakademi Aarhus og har en
+            baggrund som multimediedesigner.
           </p>
           <p>
             Jeg elsker at kode og udfordre mig selv med nye teknologier og
@@ -19,7 +19,7 @@ export default function About() {
         <h2 className="font-bold text-2xl mb-4">ERFARING</h2>
         <div className="grid gap-4">
           <div>
-            <h3 className="font-bold text-lg">Frontendudvikler</h3>
+            <h3 className="font-bold text-lg mb-2">Frontendudvikler</h3>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-8">
                 <img
@@ -36,7 +36,7 @@ export default function About() {
           </div>
 
           <div>
-            <h3 className="font-bold text-lg">Frontendudvikler</h3>
+            <h3 className="font-bold text-lg mb-2">Frontendudvikler</h3>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-8">
                 <img
