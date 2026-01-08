@@ -1,28 +1,30 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <header className="page-wrapper">
       <nav className="bg-component-grey flex items-center justify-between py-6 px-12 gap-8 rounded-b-xl mb-8 w-full m-auto">
-        <a className="font-bold" href="/">
+        <Link className="font-bold" to="/">
           SMW
-        </a>
+        </Link>
         <ul className="flex items-center gap-8">
           <li>
-            <a className="font-semibold" href="/">
+            <Link className="font-semibold" to="/">
               Hjemme
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="font-semibold" href="/projekter">
+            <Link className="font-semibold" to="/projekter">
               Projekter
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="font-semibold bg-btn-blue hover:bg-btn-blue-hover text-white py-2 px-3 rounded-md transition-all duration-300"
-              href="/contact"
+              to="/contact"
             >
               Kontakt mig
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
