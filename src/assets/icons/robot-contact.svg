@@ -1,0 +1,45 @@
+<svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head (tilted slightly) -->
+  <g transform="translate(0 10) rotate(-6 180 110)">
+    <rect x="100" y="50" width="160" height="120" rx="28"
+          fill="#E5E7EB" stroke="#111827" stroke-width="4"/>
+
+    <!-- Antenna -->
+    <line x1="180" y1="26" x2="180" y2="50"
+          stroke="#111827" stroke-width="4"/>
+    <circle cx="180" cy="22" r="6" fill="#111827"/>
+
+    <!-- Eyes -->
+    <circle cx="145" cy="105" r="10" fill="#111827"/>
+    <circle cx="215" cy="105" r="10" fill="#111827"/>
+
+    <!-- Smile -->
+    <path d="M140 130 Q180 155 220 130"
+          stroke="#111827" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Body -->
+  <rect x="110" y="190" width="140" height="95" rx="24"
+        fill="#F3F4F6" stroke="#111827" stroke-width="4"/>
+
+  <!-- Left Arm (relaxed) -->
+  <path d="M110 215 C80 220 80 255 105 260"
+        stroke="#111827" stroke-width="4" fill="none"/>
+
+  <!-- Right Arm (bent, holding phone) -->
+  <path d="M250 215 C290 205 300 155 265 135"
+        stroke="#111827" stroke-width="4" fill="none"/>
+
+  <!-- Phone -->
+  <rect x="255" y="120" width="26" height="46" rx="6"
+        fill="#111827"/>
+  <circle cx="268" cy="157" r="2" fill="#E5E7EB"/>
+
+  <!-- Sound / conversation waves -->
+  <path d="M295 125 C315 145 315 175 295 195"
+        stroke="#9CA3AF" stroke-width="3" fill="none"/>
+  <path d="M310 115 C335 145 335 185 310 215"
+        stroke="#D1D5DB" stroke-width="3" fill="none"/>
+
+</svg>

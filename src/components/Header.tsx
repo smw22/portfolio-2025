@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="page-wrapper">
       <nav className="bg-component-grey flex items-center justify-between py-6 px-12 gap-8 rounded-b-xl mb-8 w-full m-auto">
-        <Link className="font-bold" to="/">
+        <Link className="font-bold text-2xl" to="/">
           SMW
         </Link>
         <ul className="flex items-center gap-8">
@@ -20,8 +20,8 @@ export default function Header() {
           </li>
           <li>
             <Link
-              className="font-semibold bg-btn-blue hover:bg-btn-blue-hover text-white py-2 px-3 rounded-md transition-all duration-300"
-              to="/contact"
+              className="font-semibold bg-btn-blue hover:bg-btn-blue-hover hover:underline text-white py-2 px-3 rounded-md transition-all duration-300"
+              to="/kontakt"
             >
               Kontakt mig
             </Link>

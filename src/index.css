@@ -33,5 +33,5 @@ html {
 }
 
 .cv-button:hover {
-  @apply bg-btn-blue text-white border-white;
+  @apply bg-btn-blue text-white border-white underline;
 }
