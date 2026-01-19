@@ -23,7 +23,7 @@ export default function About() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-8">
                 <img
-                  src="/azorhomes.png"
+                  src="/logos/azorhomes.png"
                   alt="Azorhomes logo"
                   width={45}
                   className="rounded-full"
@@ -40,7 +40,7 @@ export default function About() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-8">
                 <img
-                  src="/grumsen.png"
+                  src="/logos/grumsen.png"
                   alt="Grumsen Development logo"
                   width={45}
                   className="rounded-full"

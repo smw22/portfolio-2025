@@ -1,11 +1,16 @@
+import Project from "../components/Project";
+import { projects } from "../data/projects";
+
 export default function Projects() {
   return (
-    <main className="flex flex-col gap-8 page-wrapper w-fit">
-      <div className="component-wrapper flex flex-col gap-6">
-        <h1 className="text-4xl font-bold text-center">Projekter</h1>
-        <p className="text-lg text-center">
-          Her vil der komme en liste over mine projekter snart.
-        </p>
+    <main className="page-wrapper">
+      <div className="component-wrapper mb-8">
+        <h1 className="text-4xl font-bold">Projekter</h1>
+        <div className="flex flex-wrap gap-8">
+          {projects.map((project) => (
+            <Project key={project.id} projectData={project} />
+          ))}
+        </div>
       </div>
     </main>
   );
