@@ -6,7 +6,7 @@ export default function About() {
         <div className="flex flex-col gap-2 text-md">
           <p>
             Mit navn er <strong> Sergio Morón Westergaard</strong>. Jeg er
-            studerende på Webudvikling på Erhvervsakademi Aarhus og har en
+            studerende på Webudvikling ved Erhvervsakademi Aarhus og har en
             baggrund som multimediedesigner.
           </p>
           <p>

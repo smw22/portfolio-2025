@@ -1,6 +1,6 @@
 import About from "../components/About";
 import Presentation from "../components/Presentation";
-import Stack from "../components/Stack";
+import TechStack from "../components/TechStack";
 
 export default function home() {
   return (
@@ -10,7 +10,7 @@ export default function home() {
         <About />
       </div>
 
-      <Stack />
+      <TechStack />
     </main>
   );
 }
