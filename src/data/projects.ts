@@ -5,6 +5,7 @@ export const projects = [
     date: "12/2025",
     role: "Fullstack Udvikler",
     image_url: "/projects/lineup-image.png",
+    detail_image_url: "/projects/lineup-image.png",
     concept: "Et socialt netværk for musikere.",
     description:
       "LineUp er en webapplikation designet til at hjælpe musikere med at connect og samarbejde om musikprojekter. Platformen tilbyder brugere mulighed for at oprette profiler, uploade deres musik, søge efter andre musikere baseret på genre og færdigheder, samt kommunikere gennem en indbygget chatfunktion.",
@@ -18,6 +19,7 @@ export const projects = [
     date: "06/2025",
     role: "Fullstack Udvikler",
     image_url: "/projects/azorhomes-image.png",
+    detail_image_url: "/projects/azorhomes-detail.png",
     concept: "Et website for ferieboligudlejning i Sydspanien.",
     description:
       "Azorhomes er en platform dedikeret til udlejning af ferieboliger i Sydspanien. Websitet tilbyder brugere en brugervenlig grænseflade til at søge efter og booke ferieboliger baseret på deres præferencer såsom beliggenhed, pris og faciliteter. Platformen inkluderer flere sektioner som for eksempel, ydelser, hvor brugere kan finde information om lokale attraktioner og aktiviteter.",
@@ -31,6 +33,7 @@ export const projects = [
     date: "05/2024",
     role: "Fullstack Udvikler",
     image_url: "/projects/fantasy-festival-image.jpg",
+    detail_image_url: "/projects/fantasy-festival-image.jpg",
     concept: "Et hjemmeside for en årlig festival i Esbjerg.",
     description:
       "Fantasy Festival er en årlig musikfestival, der finder sted i Esbjerg, Danmark. Festivalen tiltrækker både lokale og internationale kunstnere og tilbyder et bredt udvalg af musikgenrer. Hjemmesiden giver besøgende information om kommende begivenheder, kunstnere, billetter og praktiske oplysninger såsom overnatningsmuligheder og transport.",
@@ -43,11 +46,12 @@ export const projects = [
     name: "ChatBot",
     date: "10/2025",
     role: "Fullstack Udvikler",
-    image_url: "/projects/chatbot-website.png",
+    image_url: "/projects/chatbot-image.png",
+    detail_image_url: "/projects/chatbot-detail.png",
     concept: "Et AI-drevet chatbot som bruger Mistral LLM.",
     description:
       "ChatBot er en simple AI-drevet chatbot, der benytter Mistral LLM (Large Language Model) til at levere menneskelignende samtaler og support. Chatbotten er designet til at forstå og besvare brugerforespørgsler på en naturlig måde, hvilket gør den ideel til kundeservice, teknisk support og generel information.",
-    github_link: "Privately hosted",
+    github_link: "https://github.com/smw22/llm-hackathon",
     demo_link: "Inaktivt demo",
     technologies: ["React", "ExpressJS", "Supabase"],
   },
