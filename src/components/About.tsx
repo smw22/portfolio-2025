@@ -20,7 +20,7 @@ export default function About() {
         <div className="grid gap-4">
           <div>
             <h3 className="font-bold text-lg mb-2">Frontendudvikler</h3>
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-2 md:flex-row items-start md:items-center justify-between">
               <div className="flex items-center gap-8">
                 <img
                   src="/logos/azorhomes.png"
@@ -37,7 +37,7 @@ export default function About() {
 
           <div>
             <h3 className="font-bold text-lg mb-2">Frontendudvikler</h3>
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-2 md:flex-row items-start md:items-center justify-between">
               <div className="flex items-center gap-8">
                 <img
                   src="/logos/grumsen.png"

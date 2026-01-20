@@ -38,7 +38,7 @@ html {
 }
 
 .cv-button {
-  @apply bg-white font-medium border-2 border-black rounded-full flex gap-4 items-center px-4 py-2 transition-all duration-300;
+  @apply bg-white border-2 border-black rounded-full flex gap-4 items-center px-4 py-2 transition-all duration-300;
 }
 
 .cv-button:hover {

@@ -15,13 +15,13 @@ export default function Presentation() {
             width={200}
             className="rounded-full object-cover"
           />
-          <p className="max-w-2xl text-xl">
+          <p className="max-w-2xl text-lg lg:text-xl">
             En <strong>webudvikler</strong> fra Danmark, Aarhus. 📍 <br /> Lad
             os arbejde sammen!
           </p>
         </div>
 
-        <div className="flex gap-8 bg-white px-3 py-1 rounded-full border-2 border-black">
+        <div className="flex gap-4 lg:gap-8 bg-white px-3 py-1 rounded-full border-2 border-black">
           <a
             href="https://github.com/smw22"
             target="_blank"
