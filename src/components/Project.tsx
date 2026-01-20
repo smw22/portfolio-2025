@@ -8,27 +8,27 @@ export default function Project({
   return (
     <Link
       to={`/projekter/${projectData.id}`}
-      className="bg-blue-500 p-8 rounded-2xl"
+      className="bg-btn-blue text-white p-8 rounded-2xl w-full lg:w-[calc(50%-1rem)]"
     >
       <div>
-        <h1 className="text-xl">{projectData.name}</h1>
+        <h1 className="text-xl mb-2">{projectData.name}</h1>
         <img
           src={projectData.image_url}
           alt={`${projectData.name} project image`}
-          width={500}
+          className="w-full lg:h-90 object-cover rounded-lg"
         />
       </div>
       <div className="flex justify-between pt-4">
         <div>
-          <p>Brugt teknologier:</p>
-          <ul className="flex gap-4">
+          <p className="underline">Brugt teknologier:</p>
+          <ul className="flex flex-col gap-1 lg:flex-row lg:gap-4">
             {projectData.technologies.map((tech) => (
               <li key={tech}>{tech}</li>
             ))}
           </ul>
         </div>
         <div className="text-right">
-          <p>Date:</p>
+          <p className="underline">Date:</p>
           <p>{projectData.date}</p>
         </div>
       </div>

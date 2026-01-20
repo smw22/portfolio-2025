@@ -4,7 +4,7 @@ export default function Stack() {
   return (
     <section className="component-wrapper mb-8">
       <h2 className="text-2xl font-bold mb-6 text-center">TECH STACK</h2>
-      <div className="flex items-center justify-center gap-8 flex-wrap bg-white rounded-full p-6 border-2 border-black">
+      <div className="flex items-center justify-center gap-8 flex-wrap bg-white rounded-2xl xl:rounded-full p-6 border-2 border-black">
         {techStack.map((tech) => {
           const Icon = tech.icon;
           return (

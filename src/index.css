@@ -28,6 +28,15 @@ html {
   padding: 0 4rem;
 }
 
+@media (max-width: 1024px) {
+  .page-wrapper {
+    padding: 0 1.5rem;
+  }
+  .component-wrapper {
+    padding: 2rem;
+  }
+}
+
 .cv-button {
   @apply bg-white font-medium border-2 border-black rounded-full flex gap-4 items-center px-4 py-2 transition-all duration-300;
 }
